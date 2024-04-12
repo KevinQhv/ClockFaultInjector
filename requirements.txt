@@ -1,0 +1,11 @@
+breathe
+sphinx-sitemap
+exhale
+myst-nb
+sphinxcontrib.images
+jupytext
+shibuya
+progress
+progressbar2
+prettytable
+gitpython
