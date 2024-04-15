@@ -22,7 +22,7 @@ Requirements:
 #### LIBRARY ####
 
 import chipwhisperer as cw
-import glitch
+import src.glitch as glitch
 import subprocess
 import csv
 import ast
@@ -39,7 +39,7 @@ import serial
 import os
 from prettytable import PrettyTable
 
-import cw_toolkit as tk
+import src.cw_toolkit as tk
 
     
 # Widget for display progress bar
