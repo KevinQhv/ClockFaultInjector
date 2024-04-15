@@ -92,7 +92,7 @@ parser.add_argument('--repeat',             type=int,   default = 5,      help =
 parser.add_argument('--resume-progress',    type=int,   default = 0,      help = 'Value to resume progression')
 parser.add_argument('--size-data',          type=int,   default = 0,      help = 'Size of character to read by injection')
 parser.add_argument('--function-targeted',  type=str,   default='s',      help = 'Specify the letter for selected the function target:\n')
-parser.add_argument('--function-argument',  type=str,   default='0',      help = 'If necessary specify argument for function target\n')
+parser.add_argument('--function-argument',  type=str,   default='',       help = 'If necessary specify argument for function target\n')
 parser.add_argument('--path-exp',                default = None,          help = 'Folder experimentation')
 parser.add_argument('--csv-log',                default = None,           help = 'Log file')
 args = parser.parse_args()
@@ -266,6 +266,7 @@ with progressbar.ProgressBar(max_value=result, widgets=widgets) as bar:
             else:
 
                 val = target.simpleserial_read_witherrors('r', 1, glitch_timeout=10, ack=False)#For loop check
+                print(val)
 
                 if val['valid'] is False:
                     gc.add("reset", (scope.glitch.width, scope.glitch.offset, scope.glitch.ext_offset))

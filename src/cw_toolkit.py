@@ -150,7 +150,7 @@ def target_function(target, callfunc, argumentfunc):
     callfunc (str): Function call.
     argumentfunc (bytes): Function argument.
     """
-    target.simpleserial_write(callfunc, bytearray([]))
+    target.simpleserial_write(callfunc, bytearray(argumentfunc.encode()))
 
 def disconnected_setup(scope, target):
     """
