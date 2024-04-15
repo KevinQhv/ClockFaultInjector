@@ -26,7 +26,6 @@ First of all, you need to install the libraries necessary and the 2 tools requir
 - ChipWhisperer library
 - glitch library
 - tqdm
-- matplotlib
 - prettytable
 - progressbar
 - and others as specified in the script
