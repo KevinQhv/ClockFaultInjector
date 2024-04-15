@@ -7,8 +7,8 @@
 
 
 <p align="center">
-    <img src="https://img.shields.io/badge/language-Python-%23f34b7d.svg?style=for-the-badge&logo=appveyor" alt="Python">
-    <img src="https://img.shields.io/badge/platform-Ubuntu-0078d7.svg?style=for-the-badge&logo=appveyor" alt="Ubuntu">
+    <img src="https://img.shields.io/badge/language-Python-%23f34b7d.svg?style=for-the-badge" alt="Python">
+    <img src="https://img.shields.io/badge/platform-Ubuntu-0078d7.svg?style=for-the-badge" alt="Ubuntu">
 </p>
 
 
