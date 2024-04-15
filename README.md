@@ -1,6 +1,17 @@
+<h1>
+    <p align="center">
+        Clock Fault Injector ⏰
+    </p>
+</h1>
 
 
-# Clock Fault Injector ⏰
+
+<p align="center">
+    <img src="https://img.shields.io/badge/language-Python-%23f34b7d.svg?style=for-the-badge&logo=appveyor" alt="Python">
+    <img src="https://img.shields.io/badge/platform-Ubuntu-0078d7.svg?style=for-the-badge&logo=appveyor" alt="Ubuntu">
+</p>
+
+
 
 ## Clock Glitching Attacks with ChipWhisperer 
 
