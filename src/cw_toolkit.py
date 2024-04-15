@@ -2,7 +2,7 @@
 # coding: utf-8
 
 import chipwhisperer as cw
-import glitch
+import src.glitch as glitch
 import subprocess
 import csv
 import ast
@@ -13,9 +13,6 @@ import re
 import struct
 from progressbar import progressbar
 import progressbar
-import matplotlib.pylab as plt
-import matplotlib
-matplotlib.use('Agg')
 import argparse, configparser, textwrap
 import configparser
 import serial
