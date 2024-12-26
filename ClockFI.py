@@ -266,7 +266,6 @@ with progressbar.ProgressBar(max_value=result, widgets=widgets) as bar:
 
                 if val['valid'] is False:
                     gc.add("reset", (scope.glitch.width, scope.glitch.offset, scope.glitch.ext_offset))
-                    plt.plot(scope.glitch.width, scope.glitch.offset, 'xr', alpha=1)
                     print("reboot ... 💥")
 
                     iteration_reset+=1
@@ -279,7 +278,6 @@ with progressbar.ProgressBar(max_value=result, widgets=widgets) as bar:
 
                         print(val)
                         print(scope.glitch.width, scope.glitch.offset, scope.glitch.ext_offset)
-                        plt.plot(scope.glitch.width, scope.glitch.offset, 'go', alpha=1)
                         print("Successful injection ! 🐙 \n")
 
                         iteration_success+=1
